@@ -1,0 +1,28 @@
+{
+  "name": "notes-crud",
+  "version": "1.0.0",
+  "description": "CRUD API for notes app",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/warpfox/notes-crud.git"
+  },
+  "author": "Warpfox",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/warpfox/notes-crud/issues"
+  },
+  "homepage": "https://github.com/warpfox/notes-crud#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "mongodb": "^2.2.16"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  }
+}
